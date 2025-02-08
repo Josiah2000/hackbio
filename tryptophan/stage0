@@ -1,7 +1,15 @@
 members = [
-    {'name': 'valentim', 'slackname': 'Jose Valentim', 'email': 'jose.valentimfilhoUK@gmail.com', 'country': 'UK', 'hobbies': 'reading', 'preferred language': 'python'},
-    {'name': 'Mikayla Sheild', 'slackname': 'Mikayla', 'email': 'msheild.1218@gmail.com', 'country': 'US', 'hobbies': 'reading & writing', 'preferred language': 'R'},
-    {'name': 'Happiness Ezinne', 'slackname': 'Happiness Ezinne', 'email': 'ezinnahappiness11@gmail.com', 'country': 'Nigeria', 'hobbies': '', 'preferred language': 'R'},
-    {'name': 'Josiah Oluwaseyi Banjo', 'slackname': 'Josiah', 'email': 'josiaholubanjo@gmail.com', 'country': 'Nigeria', 'hobbies': 'reading', 'preferred language': 'python'}
+    {'name': 'valentim', 'slackname': 'Jose Valentim', 'email': 'jose.valentimfilhoUK@gmail.com', 
+     'country': 'UK', 'hobbies': 'reading', 'discipline': 'computer engineering', 'preferred language': 'python'},
+    
+    {'name': 'Mikayla Sheild', 'slackname': 'Mikayla', 'email': 'msheild.1218@gmail.com', 
+     'country': 'US', 'hobbies': 'reading & writing', 'discipline': 'genetics and genomics', 'preferred language': 'R'},
+    
+    {'name': 'Happiness Ezinne', 'slackname': 'Happiness Ezinne', 'email': 'ezinnahappiness11@gmail.com', 
+     'country': 'Nigeria', 'hobbies': 'x', 'discipline': 'x', 'preferred language': 'R'},
+    
+    {'name': 'Josiah Oluwaseyi Banjo', 'slackname': 'Josiah', 'email': 'josiaholubanjo@gmail.com', 
+     'country': 'Nigeria', 'hobbies': 'reading', 'discipline': 'biochemistry', 'preferred language': 'python'}
 ]
-print(members)
+
+pprint(members)
