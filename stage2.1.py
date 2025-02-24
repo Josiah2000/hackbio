@@ -5,7 +5,7 @@ import seaborn as sns
 from scipy.stats import ttest_ind
 
 # 1️⃣ Load the dataset from the URL
-url = "https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/mcgc.tsv"
+url = "https://github.com/Josiah2000/hackbio/blob/00877408a32a91085dccd0ce668b2406559ff25f/stage2.2_restructured_mcgc.tsv"
 df = pd.read_csv(url, sep="\t")
 
 # Display the first few rows
