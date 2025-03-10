@@ -8,6 +8,7 @@ from scipy.stats import ttest_ind
 url = "https://github.com/Josiah2000/hackbio/blob/00877408a32a91085dccd0ce668b2406559ff25f/stage2.2_restructured_mcgc.tsv"
 df = pd.read_csv(url, sep="\t")
 
+
 # Display the first few rows
 print(df.head())
 
